@@ -1,38 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Lato', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.main-action-items {
+  padding-top: 50px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.action-btn-w-text {
+  padding: 10px 20px;
+  background: #EEB1D5;
+  cursor: pointer;
+  border: 0;
+  margin-right: 10px;
+  border-radius: 3px;
+  min-width: 100px;
+}
+
+.todo-wrapper {
+  background: #b4436c;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  margin: 10px auto;
+  color: #fff;
+  font-family: Arial;
+  border-radius: 3px;
+}
+
+.task-text {
+  margin: 0;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.task-input {
+  height: 30px;
+  margin-right: 20px;
+  width: 250px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+}
+
+.input-wrapper {
+  text-align: left;
+}
+
+.buttons-wrapper {
+  text-align: left;
+  margin-top: 20px;
 }
